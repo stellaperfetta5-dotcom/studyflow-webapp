@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin-top: 5px;
+  color: #666;
+  font-size: 15px;
+}
+
+main {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
