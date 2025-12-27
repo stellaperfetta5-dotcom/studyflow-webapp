@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyFlow – Compiti</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- SDK ufficiale Telegram WebApp -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+    <h1>📚 Compiti</h1>
+
+    <!-- Box utente Telegram -->
+    <div id="userBox" class="user-box">
+        <p id="userInfo">Caricamento dati Telegram...</p>
+    </div>
+
+    <div class="input-box">
+        <input id="taskInput" type="text" placeholder="Aggiungi un compito...">
+        <button onclick="addTask()">+</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
